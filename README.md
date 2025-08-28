@@ -22,16 +22,16 @@ pip install -r requirements.txt
 
 ## Usage
 
-# Check a username on all platforms
+### Check a username on all platforms
 python osint_scraper.py --username hacker123
 
-# Check an email for Gravatar, MX records, and validity
+### Check an email for Gravatar, MX records, and validity
 python osint_scraper.py --email test@example.com
 
-# Combine email + username checks
+### Combine email + username checks
 python osint_scraper.py --username hacker123 --email test@example.com
 
-# Output results in JSON format
+### Output results in JSON format
 python osint_scraper.py --username hacker123 --json
 
 ## Example Output
