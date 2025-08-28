@@ -18,3 +18,17 @@ A Python tool to search usernames on multiple platforms and check email informat
 git clone https://github.com/thehackerthathacks/osint-scraper.git
 cd osint-scraper
 pip install -r requirements.txt
+
+## Usage
+
+# Check a username on all platforms
+python osint_scraper.py --username hacker123
+
+# Check an email for Gravatar, MX records, and validity
+python osint_scraper.py --email test@example.com
+
+# Combine email + username checks
+python osint_scraper.py --username hacker123 --email test@example.com
+
+# Output results in JSON format
+python osint_scraper.py --username hacker123 --json
